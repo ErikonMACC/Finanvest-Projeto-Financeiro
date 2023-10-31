@@ -84,6 +84,10 @@ nav a{
     text-decoration: none;
 }
 .hero .image{
+    width: 50vw;
+    height: 483px;
+    background-image: url(../Images/Thinking.png);
+    background-size: 100% 483px;
     margin-right: 8%;
 }
 .linehero{
@@ -102,7 +106,7 @@ nav a{
 }
 .sobre .sobreup .sobretext .title{
     font-size: 24px;
-    width: 827px;
+    width: 90%;
 }
 .sobre .sobreup .sobretext .title span{
     color: #3069F1;
@@ -114,7 +118,7 @@ nav a{
     font-style: normal;
     line-height: 120%;
     font-weight: bolder;
-    width: 827px;
+    width: 90%;
     margin-top: 34px;
 }
 .sobre .icon{
@@ -181,6 +185,7 @@ nav a{
     margin-top: -47.88px;
     margin-right: 10px;
     margin-left: -4%;
+    margin-bottom: 8vh;
 }
 .card .text .loginbutton{
     font-size: 20px;
@@ -213,7 +218,7 @@ nav a{
 .questions .title{
     text-align: center;
     font-size: 24px;
-    margin-top: 142px;
+    margin-top: 10vh;
     margin-bottom: 49px;
 }
 .questions .boxs .quest{
@@ -302,6 +307,21 @@ nav a{
     justify-content: center;
 }
 
+/* V -CSS dashboard.html- V */
+
+.HeaderDashboard{
+    width: 100%;
+    height: 10.5vh;
+    background-color: #00052E;
+    display: flex;
+    align-items: center;
+}
+.HeaderDashboard img{
+    width: 181px;
+    height: 39px;
+    margin-left: 9.5vh;
+}
+
 /* Para Celular */
 @media(max-width: 450px) {
     header .logo{
@@ -314,6 +334,9 @@ nav a{
         clip: rect(0px, 80px, 71px, 0px);
         margin-top: 4.5%;
         margin-left: 40%;
+    }
+    nav {
+        display: none;
     }
     .hero{
         background-image: url(../Images/BackgroundHeroResponsive.png);
@@ -336,7 +359,9 @@ nav a{
         margin-bottom: 40px;
     }
     .hero .image{
-        margin-right: 0;
+        width: 100%;
+        background-image: url(../Images/ThinkingResponsive.png);
+        margin-left: 9%;
     }
     .herotext{
         padding-top: 52px;
@@ -344,5 +369,123 @@ nav a{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .sobre .sobreup .sobretext .title{
+        font-size: 24px;
+        width: 90%;
+    }
+    .sobre .sobreup{
+        flex-direction: column;
+    }
+    .sobre .sobreup .sobretext{
+        margin-top: 50px;
+        margin-left: 9%;
+    }
+    .sobre .sobreup .sobretext .psobre {
+        font-size: 14px;
+    }
+    .sobre .icon{
+        display: flex;
+        margin: auto;
+        margin-top: 3vh;
+
+    }
+    .sobre .box{
+        flex-flow: column-reverse;
+        height: 500px;
+    }
+    .sobre .box .image{
+        margin-left: 4%;
+        margin-bottom: 3vh;
+        padding: 0;
+    }
+    .sobre .box .image img{
+        width: 100%; 
+    }
+    .sobre .box .title{
+        margin-left: 9%;
+        font-size: 24px;
+        width: 90%;
+        margin-top: 7vh;
+    }
+    .sobre .box .boxp{
+        margin-left: 9%;
+        width: 90%;
+        font-size: 14px;
+    }
+    .card{
+        margin-left: 9%;
+        margin-right: 0%;
+        margin-top: 7vh;
+        height: 38vh;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+    .two{
+        margin-bottom: 15vh;
+    }
+    .card .text {
+        width: 90%;
+        margin: 0;
+    }
+    .card .text .title{
+        font-size: 24px;
+    }
+    .card .text .textp{
+        width: 100%;
+        font-size: 14px;
+    }
+    .card .image_woman1{
+        display: none;
+    }
+    .card .text .textp1{
+        width: 100%;
+        font-size: 14px;
+    }
+    .card .image_woman2{
+        display: none;
+    }
+    .card .loginbutton{
+        margin-left: 5%;
+    }
+    .questions .boxs .one{
+        width: 100%;
+        height: 65vh;
+    }
+    .questions .boxs .two{
+        display: none;
+    }
+    .questions .boxs .three{
+        display: none;
+    }
+    .contacts{
+        margin-top: 10vh;
+    }
+    .contacts .top{
+        flex-wrap: wrap;
+        
+    }
+    .contacts .top .logocontact img{
+        width: 90vw;
+    }
+    .contacts .top .download{
+        display: none;
+    }
+    .contacts .boxcontact{
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 5vh;
+        margin-left: 18%;
+        margin-bottom: 5vh;
+    }
+    .contacts .boxcontact .contact p{
+        font-size: 14px;
+    }
+    .contacts .easteregg{
+        font-size: 8px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
