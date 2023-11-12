@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FINANVEST</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="icon" href="../Images/SmallLogo.png">
+</head>
+
+<body>
+
+    <header class="HeaderDashboard">
+
+        <div class="logo">
+            <a href="index.html"><img class="logoDashboard" src="../Images/LogoDashboard.png" alt="Logo"></a>
+        </div>
+
+        <nav class="navList">
+
+            <div class="buttonNav">
+                <a href="Dashboard.html">
+                    <img src="../Images/dashboard.png" alt="logoDashboard">
+                    <p>Dashboard</p>
+                </a>
+            </div>
+
+            <div class="buttonNav">
+                <a href="#Homebroker">
+                    <img src="../Images/homebroker.png" alt="logohomebroker">
+                    <p>Homebroker</p>
+                </a>
+            </div>
+
+            <div class="buttonNav">
+                <a href="#carteira">
+                    <img src="../Images/carteira.png" alt="logocarteira">
+                    <p>Carteira</p>
+                </a>
+            </div>
+
+            <div class="buttonNav">
+                <a href="#configurações">
+                    <img src="../Images/config.png" alt="logoconfig">
+                    <p>Configurações</p>
+                </a>
+            </div>
+
+            
+        </nav>
+        <div class="user">
+            <div id="user1">
+                <img src="../Images/user.png" alt="logouser">
+            </div>
+
+            <div id="user2">
+                <p>Bem vindo, Erick Gomes!</p>
+                <a href="#user">Ver conta <svg class="svg-icon__arrow--right" viewBox="0 0 7 12" height="100%" width="100%"  preserveAspectRatio="MinYMin" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#FFF" fill-rule="evenodd" d="M6.893 5.967c0-.268-.107-.524-.295-.713L1.724.37C1.33-.024.692-.024.3.37c-.394.394-.394 1.033 0 1.427l4.162 4.17L.3 10.137c-.394.394-.394 1.033 0 1.427.392.394 1.03.394 1.424 0L6.598 6.68c.188-.19.295-.445.295-.713z"/>
+                </svg></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="top">
+
+        <div class="cards">
+            <div class="card entry">
+                <div class="text">
+                    <p>Entrada</p>
+                    <p class="value">R$ 0,00</p>
+                </div>
+            </div>
+
+            <div class="card exit">
+                <div class="text">
+                    <p>Saída</p>
+                    <p class="value">R$ 0,00</p>
+                </div>
+            </div>
+
+            <div class="card total">
+                <div class="text">
+                    <p>Saída</p>
+                    <p class="value">R$ 0,00</p>
+                </div>
+
+            </div>
+            <div class="card graphical2"></div>
+        </div>
+
+        <div class="lateral">
+            <div class="card graphical">
+                <p >Ocupações da carteira</p>
+                <div class="graphic"><svg xmlns="http://www.w3.org/2000/svg" width="150" height="150"
+                        viewBox="0 0 150 150" fill="none">
+                        <circle cx="75.0001" cy="75" r="57.2535" stroke="#B2B2B2" stroke-width="20" />
+                        <mask id="path-2-inside-1_204_217" fill="white">
+                            <path
+                                d="M75 0C86.4239 1.36228e-07 97.6968 2.60966 107.958 7.62984C118.22 12.65 127.199 19.948 134.211 28.967C141.223 37.9859 146.082 48.4874 148.417 59.6701C150.752 70.8527 150.501 82.4211 147.685 93.4922L120.874 86.6712C122.652 79.6837 122.81 72.3825 121.336 65.3246C119.863 58.2668 116.796 51.6388 112.371 45.9466C107.945 40.2544 102.278 35.6483 95.8015 32.4799C89.3249 29.3114 82.2101 27.6643 75 27.6643V0Z" />
+                        </mask>
+                        <path
+                            d="M75 0C86.4239 1.36228e-07 97.6968 2.60966 107.958 7.62984C118.22 12.65 127.199 19.948 134.211 28.967C141.223 37.9859 146.082 48.4874 148.417 59.6701C150.752 70.8527 150.501 82.4211 147.685 93.4922L120.874 86.6712C122.652 79.6837 122.81 72.3825 121.336 65.3246C119.863 58.2668 116.796 51.6388 112.371 45.9466C107.945 40.2544 102.278 35.6483 95.8015 32.4799C89.3249 29.3114 82.2101 27.6643 75 27.6643V0Z"
+                            stroke="#6767F5" stroke-width="70" mask="url(#path-2-inside-1_204_217)" />
+                        <mask id="path-3-inside-2_204_217" fill="white">
+                            <path
+                                d="M147.679 93.5133C144.373 106.494 137.65 118.352 128.21 127.855C118.771 137.358 106.958 144.16 94 147.553C81.042 150.947 67.4118 150.808 54.5256 147.151C41.6395 143.495 29.9679 136.453 20.7237 126.76L40.7439 107.668C46.5783 113.786 53.9448 118.23 62.0778 120.538C70.2107 122.846 78.8134 122.933 86.9917 120.792C95.17 118.65 102.625 114.357 108.583 108.359C114.541 102.361 118.784 94.877 120.871 86.6845L147.679 93.5133Z" />
+                        </mask>
+                        <path
+                            d="M147.679 93.5133C144.373 106.494 137.65 118.352 128.21 127.855C118.771 137.358 106.958 144.16 94 147.553C81.042 150.947 67.4118 150.808 54.5256 147.151C41.6395 143.495 29.9679 136.453 20.7237 126.76L40.7439 107.668C46.5783 113.786 53.9448 118.23 62.0778 120.538C70.2107 122.846 78.8134 122.933 86.9917 120.792C95.17 118.65 102.625 114.357 108.583 108.359C114.541 102.361 118.784 94.877 120.871 86.6845L147.679 93.5133Z"
+                            stroke="#F56691" stroke-width="70" mask="url(#path-3-inside-2_204_217)" />
+                    </svg></div>
+
+                <div class="boxs">
+
+                    <div class="boxText One">
+                        <div class="box"></div>
+                        <p>40% - SELIC /CDB</p>
+                    </div>
+
+                    <div class="boxText Two">
+                        <div class="box"></div>
+                        <p>30% - Outros</p>
+                    </div>
+
+                    <div class="boxText Three">
+                        <div class="box"></div>
+                        <p>20% - Ações</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="actions">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="historic">
+
+    </div>
+
+    <div class="info">
+
+    </div>
+
+    <footer class="FooterDashboard">
+
+    </footer>
+</body>
+
+</html>

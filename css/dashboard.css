@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEE;
+}
+
+p {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.HeaderDashboard {
+    background-color: #00052E;
+    padding: 1%;
+    padding-left: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navList {
+    display: flex;
+    margin-left: 6vw;
+    font-family: "Poppins";
+    width: 40%;
+    justify-content: space-around;
+}
+
+.user {
+    display: flex;
+}
+
+#user2 p {
+    display: flex;
+    color: white;
+}
+
+#user2 {
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 60%;
+}
+
+#user2 a {
+    color: white;
+    display: flex;
+    font-size: 16px;
+    font-family: "Inter";
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+#user1 {
+    margin-top: 0.6vh;
+}
+
+.buttonNav:first-child {
+    border-bottom: solid #1732ff 5px;
+}
+
+.buttonNav {
+    height: 114%;
+    text-align: center;
+}
+
+.buttonNav p {
+    color: white;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.buttonNav a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 1vh;
+}
+.top {
+    display: flex;
+}
+
+.top .cards{
+    width: 69%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4.5%;
+}
+
+.card {
+    margin-top: 5vh;
+    height: 150px;
+    width: 32.3%;
+    margin-right: 1%;
+    border-radius: 20px;
+    background: linear-gradient(105deg, #7895CB 10.05%, #576D97 105.98%);
+}
+
+.top .exit {
+    background: linear-gradient(105deg, #F3A695 9.07%, #8B5447 105.98%, #BD897D 105.99%);
+}
+
+.top .total {
+    background: linear-gradient(105deg, #95D1F3 8.95%, #56798D 105.99%);
+}
+
+.text {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.card .text .value {
+    margin-top: 7%;
+    font-size: 26px;
+}
+
+.HeaderDashboard  svg {
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.graphical {
+    border-radius: 20px;
+    background: #FFF;
+    height: 70%;
+    width: 90%;
+}
+
+.graphical p {
+    text-align: center;
+    padding: 10px;
+    color: #585858;
+    font-size: 14px;
+    font-weight: 700;
+}
+.boxs .boxText{
+    display: flex;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.boxs .boxText p{
+    margin-top: 0px;
+    margin-left: 2%;
+    padding: 0;
+}
+
+.top .lateral {
+    width: 25%;
+}
+
+.top .lateral .graphic {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.top .lateral .graphical .boxs .One .box {
+    width: 20px;
+    height: 20px;
+    background: #F56691;
+}
+.top .lateral .graphical .boxs .Two .box {
+    width: 20px;
+    height: 20px;
+    background: #B2B2B2;
+}
+.top .lateral .graphical .boxs .Three .box {
+    width: 20px;
+    height: 20px;
+    background: #6767F5;
+}
+
+.graphical2 {
+    position: relative;
+    background: #8994A9;
+    width: 100%;
+    height: 425px;
+    margin-top: 1vh;
+}
