@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&display=swap');
 
 * {
     margin: 0;
@@ -45,6 +45,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .two {
@@ -53,10 +54,10 @@ p {
 
 .woman {
     position: absolute;
-    width: 490px;
-    height: 500px;
-    margin-bottom: 50px;
-    margin-left: 13%;
+    width: 300px;
+    height: 330px;
+    bottom: 50px;
+    margin-left: -8vw;
 }
 
 .header {
@@ -84,8 +85,7 @@ p {
 
 .login {
     width: 60%;
-    height: 50vh;
-    margin-top: -15vh;
+    height: 55vh;
 }
 
 .loginbutton {
@@ -111,12 +111,12 @@ p {
 
 .welcome {
     margin: auto;
-    width: 60%;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    width: 80%;
     padding: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 25px;
-    background-color: #01A0F1;
 }
 
 .inputs {
@@ -264,12 +264,13 @@ p {
 }
 
 .copyright {
-    margin-top: 13vh;
-    width: 120%;
+    margin-top: 18.5vh;
+    width: 100%;
+    margin-left: -10vh;
 }
 
 .copyright p {
-    color: #000;
+    color: #ffffff;
     font-size: 16px;
     text-align: left;
 }
@@ -285,21 +286,23 @@ p {
 }
 
 .boxText .title {
-    text-align: center;
+    text-align: left;
     width: 70%;
     margin-bottom: 2vh;
 }
 
 .boxText .paragraf {
-    width: 60%;
+    width: 70%;
+    text-align: left;
 }
 
 .boxText {
+    margin-left: 18%;
     margin-top: 7vh;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
+    width: 88%;
+    justify-content: left;
 }
 
 .boxText .title span {
@@ -316,8 +319,8 @@ p {
 }
 
 .saibaMais {
-    margin-top: 2vh;
-    width: 90%;
+    margin-top: 5vh;
+    width: 70%;
     color: #4F4FEB;
     text-align: center;
     font-family: Poppins;
@@ -329,5 +332,5 @@ p {
 }
 
 .politica {
-    margin-top: 38vh;
+    margin-top: 20vh;
 }
